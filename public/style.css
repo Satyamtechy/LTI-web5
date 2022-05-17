@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(-180deg,#61a9e3,#98BAD5);
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items:center;
+}
+
+.grid1{
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    width: 50vw;
+    height:30vh;
+    border-radius: 20px;
+    box-shadow: white 1px 1px 1px 1px;
+    background:linear-gradient(#BDCDF6,#60ACF5)
+}
+
+
+.grid2{
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    width: 50vw;
+    height:20vh;
+    border-radius: 60px;
+    box-shadow: white 1px 1px 1px 1px;
+    background:linear-gradient(#BDCDF6,#60ACF5);
+}
+.details{
+    width: 40vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.btn{
+    width: 40vw;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+#textBox{
+    width:20vw;
+    padding: 15px;
+    border-radius: 20px;
+    outline:none;
+    border: none;
+    background:linear-gradient(270deg,#BDCDF6,#60ACF5);
+    box-shadow: white 1px 1px 1px 1px;
+}
+
+#submitButton{
+    width:10vw;
+    padding: 20px 20px;
+    border-radius: 40px;
+    outline:none;
+    border: none;
+    color:#353E5E;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.icon{
+    width:100px;
+    height:100px;
+}
